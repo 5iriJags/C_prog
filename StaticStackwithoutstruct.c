@@ -3,8 +3,7 @@
 #include<stdlib.h>
 #define size 5
 int top, s[size];
-int
-stfull ()
+int stfull ()
 {
   if (top >= size - 1)
 	return 1;
